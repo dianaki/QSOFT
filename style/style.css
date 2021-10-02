@@ -46,6 +46,11 @@ button {
   display: flex;
 }
 
+.logo {
+  width: 135px;
+  height: 30px;
+}
+
 .header__mobile {
   display: none;
 }
@@ -140,6 +145,10 @@ button {
 
 .partners__item:nth-child(4n+1){
   margin-left: 0;
+}
+
+.partners__item:nth-child(n+5) {
+  margin-bottom: 0;
 }
 
 .partners__btn {
@@ -239,6 +248,14 @@ button {
     margin-left: 0px;
   }
 
+  .partners__item:nth-child(n+5) {
+    margin-bottom: 20px;
+  }
+
+  .partners__item:nth-child(n+7) {
+    margin-bottom: 0;
+  }
+
   .partners__img--nike {
     max-width: 80%;
   }
@@ -248,8 +265,14 @@ button {
   .container {
     padding: 0 5.4%;
   }
+
   .header__mobile {
     display: flex;
+  }
+
+  .mobile__user {
+    width: 25px;
+    height: 25px;
   }
 
   .header__container {
