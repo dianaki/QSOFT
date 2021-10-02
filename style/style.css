@@ -178,6 +178,34 @@ button {
   .container {
     padding: 0 1.7%;
   }
+
+  .partners__img--henkel {
+    max-width: 52%;
+  }
+
+  .partners__img--john {
+    max-width: 81%;
+  }
+
+  .partners__img--mcdonalds {
+    max-width: 100%;
+  }
+
+  .partners__img--ikea {
+    max-width: 77%;
+  }
+
+  .partners__img--reebok {
+    max-width: 82%;
+  }
+
+  .partners__img--nike {
+    max-width: 100%;
+  }
+
+  .partners__img--cat {
+    max-width: 87%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -211,32 +239,8 @@ button {
     margin-left: 0px;
   }
 
-  .partners__img--henkel {
-    max-width: 52%;
-  }
-
-  .partners__img--john {
-    max-width: 81%;
-  }
-
-  .partners__img--mcdonalds {
-    max-width: 100%;
-  }
-
-  .partners__img--ikea {
-    max-width: 77%;
-  }
-
-  .partners__img--reebok {
-    max-width: 82%;
-  }
-
   .partners__img--nike {
-    max-width: 100%;
-  }
-
-  .partners__img--cat {
-    max-width: 87%;
+    max-width: 80%;
   }
 }
 
@@ -286,7 +290,15 @@ button {
     max-width: 100%;
   }
 
+  .partners__btn {
+    min-height: 140px;
+  }
+
   .partners__item:nth-child(4n+1){
     margin-left: 0px;
+  }
+
+  .partners__img--nike {
+    max-width: 100%;
   }
 }
